@@ -40,7 +40,7 @@ new Vue({
 			pausedDuration = 0;
 			timeBegan = null;
 			timePaused = null;
-      		this.time = "00:00:00.000";
+      			this.time = "00:00:00.000";
 		},
 		clockRunning() {
 			var current = new Date(),
