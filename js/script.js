@@ -1,8 +1,8 @@
 var timeBegan = null, 
-	timePaused = null, 
-	pausedDuration = 0, 
-	started = null, 
-	running = false;
+timePaused = null, 
+pausedDuration = 0, 
+started = null, 
+running = false;
 
 new Vue({
 	el: '#section-stopwatch',
