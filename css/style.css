@@ -28,6 +28,7 @@ body {
 
 #stopwatch-container {
 	flex: 0 1 auto;
+	border: solid 5px;
 	padding: 25px 100px 25px 100px;
 }
 
@@ -44,6 +45,23 @@ body {
 }
 .btn:hover {
 	cursor: pointer;
+}
+
+a {
+	font-size: 0px;
+}
+
+.project-button-div {
+	display: inline-block;
+  	color: var(--black-tint);
+  	font-size: 12px;
+  	margin: 20px;
+	padding: 2px 6px 6px 5px;
+}
+.project-button-div img {
+	width: 15px;
+	height: 15px;
+  	transform: translate(13%, 25%);
 }
 
 [v-cloak] { display: none; }
